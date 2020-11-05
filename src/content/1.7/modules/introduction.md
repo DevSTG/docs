@@ -82,7 +82,7 @@ Each module has its own sub-folder inside the `/modules` folder:
 About the cache
 ---------------
 
-The `/cache/class_index.php` file contains the link between the class
+The `/var/cache/[dev|prod]/class_index.php` file contains the link between the class
 and the declaration file. If there is a caching issue, this file can
 safely be deleted.
 
